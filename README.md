@@ -21,6 +21,6 @@ Additional features I have thought off to implement:
 - ISBN numerical strings must be unique
 - Author must have first and last name
 - New book title and author must not match those already in library
-- Check if book is present in library before removing
-- Check if book is present in library before listing
+- Let the user know if book is present in library before removing
+- Let the user know if book is present in library before listing
 - Confirm with user before exiting
