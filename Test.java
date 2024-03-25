@@ -28,7 +28,7 @@ public class Test
                 // Check if input is valid, do not use "throw new" exception because it will terminate the program
                 if (option < 1 || option > 6)
                 {
-                    System.out.println("~~~ Invalid option. Options are from 1 to 5 ~~~");
+                    System.out.println("~~~ Invalid option. Options are from 1 to 6 ~~~");
                     scan.next();
                     continue;
                 }
