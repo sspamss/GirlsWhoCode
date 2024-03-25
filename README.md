@@ -1,6 +1,6 @@
-Girls Who Code - Interview Prep Program
+****Girls Who Code - Interview Prep Program*
 
-Prompt:
+**Required Implementations**
     Imagine you are a librarian and want to develop an inventory management system that keeps track of which
     books are in the library and which ones have been checked out. Write a program  with the following functionality:
     - The user can print out a list of each book and its status (“on shelf” or “checked out”) 
@@ -10,8 +10,9 @@ Prompt:
     you should also consider its overall design. Your solution can be in a language of your choosing. If you
     have time, think about what other functionality you might add. Try to implement it for an extra challenge!
 
-Things to consider Implementing
-- ISBN numbers must be unique
+**Optional Implementations**
+*tasks created by me*
+- ISBN numerical strings must be unique
 - Author must have first and last name
 - New book title and author must not match database
 - Check if any books are present in database before removing
