@@ -14,7 +14,7 @@ Additional features I have implemented to improve upon this program:
 - Search for a book from library
 - Try-catch to control user-error inputs
 - Regex to ensure user only inputs 13 numbers for ISBN
-- Program ends when user says so
+- Program terminates when user specifies so
 
 ## In-Progress Implementations
 Additional features I have thought off to implement:
