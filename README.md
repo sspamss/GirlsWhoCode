@@ -18,6 +18,7 @@ Additional features I have implemented to improve upon this program:
 
 ## In-Progress Implementations
 Additional features I have thought off to implement:
+- Keep track of the number of books in the inventory
 - ISBN numerical strings must be unique
 - Author must have first and last name
 - User should only be able to checkout a book using ISBN or when they provide both title and author
