@@ -20,6 +20,7 @@ Additional features I have implemented to improve upon this program:
 Additional features I have thought off to implement:
 - ISBN numerical strings must be unique
 - Author must have first and last name
+- User should only be able to checkout a book using ISBN or when they provide both title and author
 - New book title and author must not match those already in library
 - Let user know if book is present in library before removing
 - Let user know if book is present in library before listing all books
