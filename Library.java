@@ -5,9 +5,15 @@ public class Library
     ArrayList<Book> books;
 
     // Constructor, ArrayList is best because add and remove operations are O(1)
-    public Library() { this.books = new ArrayList<Book>(); }
+    public Library()
+    {
+        this.books = new ArrayList<Book>();
+    }
 
-    public void addBook(Book book) { this.books.add(book); }
+    public void addBook(Book book)
+    {
+        this.books.add(book);
+    }
 
     public void removeBook(String remove)
     {
