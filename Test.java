@@ -49,9 +49,11 @@ public class Test
                 {
                     System.out.print("  Enter ISBN: ");
                     isbn = scan.nextLine();
-                    if (!isbn.matches("\\d{13}")) System.out.println("  ~~~ ISBN must be 13 digits long ~~~");
+                    // if (!isbn.matches("\\d{13}")) System.out.println("  ~~~ ISBN must be 13 digits long ~~~");
+                    if (!isbn.matches("\\d{3}")) System.out.println("  ~~~ ISBN must be 3 digits long ~~~");
                 }
-                while(!isbn.matches("\\d{13}"));
+                // while(!isbn.matches("\\d{13}"));
+                while(!isbn.matches("\\d{3}"));
                 System.out.print("  Enter title: ");
                 String title = scan.nextLine();
                 System.out.print("  Enter author: ");
@@ -96,7 +98,13 @@ public class Test
             // Exit
             else
             {
-                break;
+                System.out.println("Are you sure you want to quit?");
+                System.out.println("  (1) Yes");
+                System.out.println("  (2) No");
+                int confirm = scan.nextInt();
+                if (confirm == 1) break;
+                else if (confirm == 2) continue;
+                else System.out.println("~~~ Invalid option. Options are 1 or 2 ~~~");
             }
         }
         while(true);
