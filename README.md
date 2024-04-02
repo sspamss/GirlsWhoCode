@@ -13,7 +13,7 @@ Additional features I have implemented to improve upon this program:
 - Remove a book from library
 - Search for a book from library
 - Try-catch to control user-error inputs
-- Regex to ensure user only inputs 13 numbers for ISBN
+- Regex to ensure user only inputs ~~13~~ 3 numbers for ISBN
 - Program terminates when user specifies so
 
 ## In-Progress Implementations
