@@ -15,6 +15,7 @@ Additional features I have implemented to improve upon this program:
 - Try-catch to control user-error inputs
 - Regex to ensure user only inputs ~~13~~ 3 numbers for ISBN
 - Program terminates when user specifies so
+- Confirm with user before exiting
 
 ## In-Progress Implementations
 Additional features I have thought off to implement:
@@ -25,4 +26,3 @@ Additional features I have thought off to implement:
 - New book title and author must not match those already in library
 - Let user know if book is present in library before removing
 - Let user know if book is present in library before listing all books
-- Confirm with user before exiting
